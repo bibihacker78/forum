@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Données depuis SQLite3</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Données depuis SQLite3</h1>
+    <h2>Liste des publications</h2>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Date</th>
+        <th>Description</th>
+      </tr>
+      {{range .}}
+      <tr>
+        <td>{{.ID}}</td>
+        <td>{{.Date}}</td>
+        <td>{{.Description}}</td>
+      </tr>
+      {{end}}
+    </table>
+  </body>
+</html>

@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    
+}
+
+
+
+.principale{
+    width: 100%;
+    height: 50px;
+    margin: 10px auto ;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 2px 15px rgb(165, 165, 165);
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  
+}
+
+
+ul li a:hover{
+    background: rgb(209, 82, 82);
+    color:darkblue;
+
+}
+
+ul li.active a{
+    background: rgb(212, 26, 26);
+    color:darkblue;
+
+}
+
+.titre{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50% -50%);
+}
+.titre h1{
+    color:darksalmon;
+    font-size: 40px;
+}
+
+
+
+.glide{
+    width: 70%; 
+    margin: auto;
+}
+.info h3 {
+   
+    background-color: blue;
+    padding-top: 5px;
+    text-align: center;
+    height: 35px;
+    margin-top: 15px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color:cornflowerblue 
+}
+
+
+.contact img {
+    width: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+  
+}
+.logoappia img{
+    width: 50px;
+
+}
+
+
+
+/*
+.imageA {
+    width: 50%;
+    height: 500px;
+    margin-top: 450px;
+    margin-left: 410px;
+    position: left;
+    
+}
+
+.imageB {
+    width: 100%;
+    height: 300px;
+    margin-top: -400px;
+    margin-left: 960px;
+    position: center;
+    
+}
+.imageC {
+    width: 50%;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 400px;
+    position: left;
+    
+}
+
+.imageD {
+    width: 50%;
+    height: 300px;
+    margin-top: -400px;
+    margin-left: 970px;
+    position: left;
+    
+}
+
+.texteA{
+    position:left;
+    left: 50%;
+    top: 150%;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: -125px;
+    
+}
+
+
+
+.texteB{
+    position:center;
+    left: 50%;
+    top: 150%;
+    font-size: 20px;
+    
+    margin-left: 450px;
+    margin-top: 90px;
+    
+}
+.texteC{
+    position:center;
+    left: 50%;
+    top: 50%;
+    font-size: 20px;
+    
+    margin-left: 250px;
+    margin-top: 250px;
+    
+}
+.texteD{
+    position:center;
+    left: 50%;
+    top: 50%;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 50px;
+    
+}
+*/
+
+.grand-titre{
+    color:black;
+    font-size: 40px;
+    position: center;
+    margin-left: 550px;
+    margin-top: -250px;
+}
+
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grille {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    grid-gap :100px;
+
+}
+
+.grid-item{
+    width: 350px;
+    height: 280px;
+    background: #333;
+    margin-top: 80px;
+    
+}
+.grille{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.texte1{
+    position:absolute;
+    left: 300px;
+    top: 480px;
+    font-size: 25px;
+    width: 600px;
+}
+.texte2{
+    position:center;
+    margin-left: 300px;
+    top: 480px;
+    font-size: 25px;
+    width: 600px;
+    margin-top: 30px;
+}
+.texte3{
+    position:right;
+    margin-left: 500px;
+    margin-top: -30px;
+    font-size: 25px;
+    width: 600px;
+}
+.texte4{
+    position:left;
+    margin-left: 500px;
+    margin-top:-500px;
+    font-size: 25px;
+    width: 600px;
+}
+
+.imageL {
+  
+    margin-top: 30px;
+    margin-left: 0px;
+    position: left;
+    
+}

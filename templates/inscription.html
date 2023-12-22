@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            
+            <form action="/inscription" method="post">
+                <h1>Créer un compte</h1>
+               
+                <input type="text" name="name" placeholder="Nom et prenom">
+                <input type="email" name="mail" placeholder="Email">
+                <input type="password" name="pwd" placeholder="Creer Mot de passe">
+                <!--<input type="password" name="cmdp" placeholder="Confirmer le Mot de passe">-->
+                
+                <button>Créer le compte</button>
+            </form>
+
+        </div>
+        <div class="form-container login-container">
+            <form action>
+                <h1>Se connecter</h1>
+        
+                <span></span>
+                <input type="text" name="nom" placeholder="Nom">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="mdp" placeholder="Mot de passe">
+                
+                <button>Confirmer</button>
+
+
+            </form>
+
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Dèjà inscrit? Connectez-vous.</h1>
+                    <p> Connectez-vous </p>
+                    <button class="ghost" id="login">Se connecter</button>
+                </div>
+
+                <div class="overlay-panel overlay-right">
+                    <h1>Vous n'avez pas de compte ? Inscrivez-vous.</h1>
+                    <p>Inscrivez-vous pour accéder à votre compte </p>
+                    <button class="ghost" id="signUp">Créer un compte</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/style.js"></script>
+</body>
+</html>
